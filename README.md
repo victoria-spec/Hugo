@@ -18,7 +18,9 @@ Instructions to install and work with Hugo blogs in WIndows Enviroment
 13) dir
 14) You will see hugo-profile folder
 15) go to File Explore
-16) 
+16) you will see C:\websites\mysite
+17) 
+
 
 
 
