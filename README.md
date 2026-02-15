@@ -37,8 +37,40 @@ hugo new site mysite --format="yaml"
 ```powershell
 exit
 ```
+## 📂 Step 3: Folder Structure
 
-## 🛠 Step 2: Download Isabela Protfolio
+```powershell
+C:
+└── website
+└── mysite
+├── archetypes\ # Content templates
+├── assets\ # CSS, JS, images processed by Hugo Pipes
+├── content\ # Website pages and blog posts
+├── data\ # YAML/JSON/TOML data files
+├── layouts\ # Custom layout templates
+├── static\ # Static files (images, favicon, etc.)
+├── themes\ # Installed themes
+│ └── hugo-profile
+├── config.yaml # Site configuration file
+└── public\ # Generated site (after running hugo)
+```
+
+### 📌 Quick Explanations
+
+| Folder/File       | Purpose |
+|------------------|---------|
+| `archetypes/`    | Templates used when creating new content with `hugo new` |
+| `assets/`        | Stylesheets, JS, and images that Hugo processes |
+| `content/`       | Markdown files for pages and blog posts |
+| `data/`          | Optional structured data files for your site |
+| `layouts/`       | HTML templates for customizing the site layout |
+| `static/`        | Files copied directly to the final site without processing |
+| `themes/`        | Installed themes for your site |
+| `config.yaml`    | Main configuration file for your Hugo site |
+| `public/`        | Auto-generated folder containing the website output (Appears after the the site is generated) |
+
+---
+## 🛠 Step 3: Download Isabela Protfolio
 
 1. Open **PowerShell** as **Administrator**
 2. Navigate to root directory: **C:\\website\mysite\themes** folder
@@ -49,6 +81,29 @@ cd C:\\website\mysite\themes
 ```powershell
 git clone https://github.com/gurusabarish/hugo-profile
 ```
+3. View Hugo-Profile theme
+```powershellcd
+cd C:\\website\mysite\themes\hugo-profile
+```
 4. View Hugo-Profile theme
-   
+```powershell
+C:
+├── archetypes
+└──exampleSite
+└──i18n
+└──images
+└──i18n
+└──layouts
+└──.gitignore
+└──LICENSE
+└──.gitignore
+└──netlify.toml
+└──theme.toml
+```
+4. Go to **C:\websites\mysite\themes\hugo-profile\exampleSite** and copy following folders and files to **c:\websites\mysite**   
+```powershell
+   static
+   ccontent
+   hugo.yaml
 
+```
