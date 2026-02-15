@@ -105,5 +105,24 @@ C:
    static
    ccontent
    hugo.yaml
+```
+## 🌟 Step 4: Start Local Web site 
 
+1. Open **PowerShell** as **Administrator**
+2. Go to **c:\websites\mysite**
+```powershell
+   cd c:\websites\mysite
+```
+4. run Hugo server
+```powershell
+   hugo server -D
+```
+
+```powershell
+   hugo server -D --disableFastRender
+```
+
+5 Start web brouser and run 
+```powershell
+   http://localhost:1313
 ```
