@@ -1,6 +1,6 @@
 # Hugo Portfolio Setup (Windows Environment)
 
-This guide explains the steps to install and configure a Hugo portfolio website on Windows.
+This guide explains the steps to install and configure a Hugo portfolio website on Windows. https://themes.gohugo.io/
 
 ---
 
