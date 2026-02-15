@@ -113,7 +113,7 @@ C:
 ```powershell
    cd c:\websites\mysite
 ```
-4. run Hugo server
+3. run Hugo server
 ```powershell
    hugo server -D
 ```
@@ -122,7 +122,7 @@ C:
    hugo server -D --disableFastRender
 ```
 
-5 Start web brouser and run 
+4 Start web brouser and run 
 ```powershell
    http://localhost:1313
 ```
